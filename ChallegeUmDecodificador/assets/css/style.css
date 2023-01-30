@@ -1,0 +1,137 @@
+
+
+:root {
+    --corprincipal: #757fb2;
+    --corsegundaria: #609ED4;
+    --cortitulo: #0A3871;
+}
+
+body {
+    background: linear-gradient(#757fb2,#609FD4,#0A3871)
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.cabecalho h1 {
+    color: var(--cortitulo);
+}
+
+.cabecalho img {
+    max-width: 40px;
+    max-height: 40px;
+    width: auto;
+    height: auto;
+}
+
+.container-input {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0 0 4%;
+}
+
+.container-input .input {
+    width: 400px;
+    height: 330px;
+}
+
+#input-texto {
+    width: 345px;
+    height: 330px;
+    font-size: 20px;
+    color: var(--cortitulo);
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    resize: none;
+    outline: 0;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+
+#output {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffff;
+    border: 3px solid var(--cortitulo);
+    border-radius: 20px;
+    width: 350px;
+    height: 400px;
+    margin-right: 3%;
+}
+
+#output h2 {
+    text-align: center;
+    font-size: 25px;
+    color: var(--cortitulo);
+    margin-top: 70px;
+}
+
+
+#output img {
+    max-width: 300px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+    margin-top: 5px;
+    margin-left: 14px;
+}
+
+.container-bnt button {
+    font-size: large;
+    border: 2px solid var(--cortitulo);
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--cortitulo);
+    width: 150px;
+    height: 50px;
+    margin-left: 4%;
+    cursor: pointer;
+}
+
+.btn-copiar {
+    background-color: var(--corprincipal);
+    border: 2px solid var(--cortitulo);
+    border-radius: 10px;
+    font-size: large;
+    text-decoration: none;
+    color: #ffff;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 10%;
+    margin-left: 30%;
+    cursor: pointer;
+}
+
+.container-bnt button:hover {
+    border: 2px solid var(--corsegundaria);
+    transition: 0.5s all;
+}
+
+.rodape {
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    margin-top: 15px;
+    text-align: center;
+    color: var(--cortitulo);
+    font-size: large;
+}
+
+
+
